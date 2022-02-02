@@ -1,6 +1,9 @@
 import './App.css';
+import data from './data.json';
+import React, { useState } from 'react';
 
 function App() {
+  const [employeeInfo, setemployeeInfo] = useState(data)
   return (
     <div className="App">
         <table>
@@ -13,30 +16,14 @@ function App() {
             </tr>
           </thead>
           <tbody>
+            {employeeInfo.map((v) => 
             <tr>
-              <td>Ian</td>
-              <td>Blacksmith</td>
-              <td>Sales</td>
-              <td>Past</td>
+              <td>{v.forename}</td>
+              <td>{v.surname}</td>
+              <td>{v.department}</td>
+              <td>{v.employeeStatus}</td>
             </tr>
-            <tr>
-              <td>John</td>
-              <td>Smith</td>
-              <td>Accounting</td>
-              <td>Current</td>
-            </tr>
-            <tr>
-              <td>Bob</td>
-              <td>Jones</td>
-              <td>Accounting</td>
-              <td>Past</td>
-            </tr>
-            <tr>
-              <td>Sarah</td>
-              <td>Turner</td>
-              <td>Sales</td>
-              <td>Current</td>
-            </tr>
+            )}
           </tbody>
         </table>
     </div>

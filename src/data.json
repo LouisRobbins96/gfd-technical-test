@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "forename": "Ian",
+        "surname": "Blacksmith",
+        "department": "Sales",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 2,
+        "forename": "John",
+        "surname": "Smith",
+        "department": "Accounting",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 3,
+        "forename": "Bob",
+        "surname": "Jones",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 3,
+        "forename": "Sarah",
+        "surname": "Turner",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 3,
+        "forename": "Susan",
+        "surname": "Jones",
+        "department": "Accounting",
+        "employeeStatus": "Past"
+    }
+  ]
