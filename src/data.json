@@ -4,7 +4,7 @@
         "forename": "Ian",
         "surname": "Blacksmith",
         "department": "Sales",
-        "employeeStatus": "Past"
+        "employeeStatus": "Current"
     },
     {
         "id": 2,
@@ -33,5 +33,41 @@
         "surname": "Jones",
         "department": "Accounting",
         "employeeStatus": "Past"
+    },
+    {
+        "id": 6,
+        "forename": "Amelia",
+        "surname": "Griffin",
+        "department": "Sales",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 7,
+        "forename": "Keith",
+        "surname": "Slade",
+        "department": "Accounting",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 8,
+        "forename": "Roselyn",
+        "surname": "Pemberton",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 9,
+        "forename": "Jared",
+        "surname": "Long",
+        "department": "Accounting",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 10,
+        "forename": "Max",
+        "surname": "Davis",
+        "department": "Sales",
+        "employeeStatus": "Past"
     }
+
   ]
