@@ -22,22 +22,29 @@ const EditRow = ({ editTableData, handleEditTableChange}) => {
                 ></input>
             </td>
             <td>
-                <input 
+                <select 
                     type='text' 
                     placeholder="Enter a Department..."
                     name="department"
                     value={editTableData.department}
                     onChange={handleEditTableChange}
-                ></input>
+                >
+                    <option>Accounting</option>
+                    <option>Sales</option>
+                    <option>HR</option>
+                    <option>Manager</option>
+                </select>
             </td>
             <td>
-                <input 
-                    type='text' 
+                <select 
                     placeholder="Enter Employee Status..."
                     name="employeeStatus"
                     value={editTableData.employeeStatus}
                     onChange={handleEditTableChange}
-                ></input>
+                >
+                    <option>Current</option>
+                    <option>Past</option>
+                </select>
             </td>
             <td>
                 <button class="save" type="submit">Save</button>

@@ -41,7 +41,7 @@ td{
   background-color: var(--gfdBackgroundcolour);
 }
 
-input{
+input, select, option{
   border: none;
   border-bottom: 2px var(--gfdBackgroundcolour) solid;
   height: 25px;
@@ -53,11 +53,15 @@ input{
   padding: 4px;
 }
 
-input:focus-visible{
+select{
+height: 35px;
+}
+
+input:focus-visible, select:focus-visible{
   outline: none;
 }
 
-input:focus{
+input:focus, select:focus-visible{
   border-bottom: 2px var(--gfdColour) solid;
 }
 
