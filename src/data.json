@@ -68,6 +68,76 @@
         "surname": "Davis",
         "department": "Sales",
         "employeeStatus": "Past"
+    },
+    {
+        "id": 11,
+        "forename": "Ian",
+        "surname": "Blacksmith",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 12,
+        "forename": "John",
+        "surname": "Smith",
+        "department": "Accounting",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 13,
+        "forename": "Bob",
+        "surname": "Jones",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 14,
+        "forename": "Sarah",
+        "surname": "Turner",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 15,
+        "forename": "Susan",
+        "surname": "Jones",
+        "department": "Accounting",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 16,
+        "forename": "Amelia",
+        "surname": "Griffin",
+        "department": "Sales",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 17,
+        "forename": "Keith",
+        "surname": "Slade",
+        "department": "Accounting",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 18,
+        "forename": "Roselyn",
+        "surname": "Pemberton",
+        "department": "Sales",
+        "employeeStatus": "Current"
+    },
+    {
+        "id": 19,
+        "forename": "Jared",
+        "surname": "Long",
+        "department": "Accounting",
+        "employeeStatus": "Past"
+    },
+    {
+        "id": 20,
+        "forename": "Max",
+        "surname": "Davis",
+        "department": "Sales",
+        "employeeStatus": "Past"
     }
 
   ]

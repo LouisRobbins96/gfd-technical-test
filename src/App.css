@@ -4,10 +4,11 @@
 }
 
 body{
-  margin: 32px;
+  margin: 128px;
 }
 
 table{
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
@@ -15,6 +16,18 @@ table{
 
 tr{
   max-height: 40px;
+}
+
+tr:nth-child(even), tr:nth-child(even) input, tr:nth-child(even) select{
+  background-color: #fff;
+}
+
+tr:nth-child(odd), tr:nth-child(odd) input, tr:nth-child(odd) select{
+  background-color: var(--gfdBackgroundcolour);
+}
+
+tr input, tr select{
+  border-bottom: 2px var(--gfdColour) solid;
 }
 
 th{
@@ -37,10 +50,6 @@ th, td{
   padding: 16px;
 }
 
-td{
-  background-color: var(--gfdBackgroundcolour);
-}
-
 input, select, option{
   border: none;
   border-bottom: 2px var(--gfdBackgroundcolour) solid;
@@ -51,10 +60,19 @@ input, select, option{
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   padding: 4px;
+  min-width: 190px;
+  bottom: -1px;
+  left: -4px;
+  position: relative;
 }
 
 select{
 height: 35px;
+left: -8px;
+}
+
+select:hover, option:hover{
+  cursor: pointer;
 }
 
 input:focus-visible, select:focus-visible{
@@ -71,7 +89,7 @@ button{
   padding: 12px 32px;
   border-radius: 3px;
   border: 1px solid var(--gfdColour);
-  background-color: var(--gfdBackgroundcolour);
+  background-color: #fff;
   width: 96px;
   font-size: 12px;
   transition: all .2s ease-in-out;
@@ -80,8 +98,8 @@ button{
 }
 
 .save{
-  background-color: var(--gfdColour);
-  color: #fff;
+  background-color: #fff;
+  color: var(--gfdColour);
   cursor: pointer;
 }
 
