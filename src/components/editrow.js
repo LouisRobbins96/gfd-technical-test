@@ -1,6 +1,6 @@
 import React from "react";
 
-const EditRow = ({ editTableData, handleEditTableChange}) => {
+const EditRow = ({ editTableData, handleEditTableChange }) => {
     return (
         <tr>
             <td>

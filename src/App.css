@@ -4,7 +4,7 @@
 }
 
 body{
-  margin: 128px;
+  margin: 96px 256px;
 }
 
 table{
@@ -12,6 +12,7 @@ table{
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
+  font-size: 18px;
 }
 
 tr{
@@ -55,7 +56,7 @@ input, select, option{
   border-bottom: 2px var(--gfdBackgroundcolour) solid;
   height: 25px;
   border-radius: 4px 4px 0px 0px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -91,15 +92,15 @@ button{
   border: 1px solid var(--gfdColour);
   background-color: #fff;
   width: 96px;
-  font-size: 12px;
+  font-size: 14px;
   transition: all .2s ease-in-out;
   text-decoration: none;
   transition: all .2s ease;
 }
 
 .save{
-  background-color: #fff;
-  color: var(--gfdColour);
+  background-color: var(--gfdColour);
+  color: #fff;
   cursor: pointer;
 }
 
